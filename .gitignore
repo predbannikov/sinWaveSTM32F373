@@ -1,42 +1,35 @@
-# STM32CubeIDE project files
-.settings/
-.metadata/
-.loadpath
-.cproject
-.project
-*.launch
+# === STM32CubeIDE (Eclipse) project metadata — KEEP in Git! ===
+# !НЕ игнорировать эти файлы!
+#!.project
+#!.cproject
+#!.settings/
+#!*.launch
+#!*.ioc
 
-# Build output folders
+# === Build artifacts ===
 Debug/
 Release/
 build/
 out/
 *.elf
-*.map
 *.bin
 *.hex
+*.map
 *.o
 *.d
 *.lst
 
-# CubeMX generated backup files
+# === CubeMX backups ===
 *.ioc.bak
 *.ioc-backup
 *.ioc~*
 
-# OS junk
+# === Logs / temp ===
+*.log
+*.tmp
+*.swo
+*.swp
+
+# === OS junk ===
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
-
-# Temporary files
-*.swp
-*.swo
-*.tmp
-
-# Optional: ignore generated code (если хотите хранить только свою логику)
-#Core/Inc/*
-#Core/Src/*
-#Drivers/
