@@ -1,0 +1,42 @@
+# STM32CubeIDE project files
+.settings/
+.metadata/
+.loadpath
+.cproject
+.project
+*.launch
+
+# Build output folders
+Debug/
+Release/
+build/
+out/
+*.elf
+*.map
+*.bin
+*.hex
+*.o
+*.d
+*.lst
+
+# CubeMX generated backup files
+*.ioc.bak
+*.ioc-backup
+*.ioc~*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+
+# Optional: ignore generated code (если хотите хранить только свою логику)
+#Core/Inc/*
+#Core/Src/*
+#Drivers/
